@@ -8,7 +8,7 @@ gray: #CEBEBE(PALE SILVER)
 */
 
 html{
-    background-color: #DCF5BE;
+    background-color: #f06543;
 }
 
 body {
@@ -36,58 +36,70 @@ body {
     color: white;
 }
 
+.is-tomato{
+    background-color: #f06543;
+    color: white;
+}
+.is-tomato .title{
+    color: white;
+}
+.is-tomato .message-header{
+    background-color: #f06543;
+}
+
+.is-tomato .message-body{
+    background-color: #e8e9eb;
+}
+
+.text-tomato{
+    color: #f06543;
+}
+
+.text-tomato-light-2{
+    color: #F48F76;
+}
+
+.text-tomato-light{
+    color: #F8B9A9;
+}
+
 .tray{
-    overflow: hidden;
-    z-index: 1;
     max-width: 800px;
     margin: auto;
     padding: 1.5rem;
-    border: solid 3px #60993E;
+    border: solid 3px #f06543;
     border-radius: 2rem;
     background-color: #F0F5ED;
-    position: relative;
 }
 
 .tray-title{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    color: #60993E;
-    border-bottom: dotted 3px #60993E;
+    color: #f06543;
+    border-bottom: dotted 3px #f06543;
+}
+
+.bgstr-parent{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .bgstr{
     position: absolute;
-    color: #DFEAD8;
     z-index: -1;
-    top: -160px;
-    right: -160px;
+    top: -120px;
+    right: -120px;
     right: 0;
     white-space: nowrap;
-    font-size: 30rem;
+    font-size: 18rem;
     font-weight: bold;
     transform: rotate(-15deg);
-}
-
-#suggested_recipe{
-    max-width: 800px;
-    margin: auto;
-    padding: 1.5rem;
-    border: solid 3px #60993E;
-    border-radius: 2rem;
-    background-color: #F0F5ED;
-}
-
-#suggested_recipe_title{
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    color: #60993E;
-    border-bottom: dotted 3px #60993E;
 }
 
 #recipe_name{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #60993E;
+    color: #f06543;
 }
